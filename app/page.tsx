@@ -10,6 +10,7 @@ import { vastuData } from "@/data/vastuData";
 import Stats from "@/components/Stats";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import Link from "next/link";
 
 export default function Home() {
 
@@ -98,6 +99,9 @@ export default function Home() {
             room={room}
             setRoom={setRoom}
           />
+          <Link href="/compass">
+  Compass
+</Link>
 
         </div>
         <Stats />
